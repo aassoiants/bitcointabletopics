@@ -1,7 +1,7 @@
 let questions = []; // This will store our questions from GitHub
 
 // Fetch questions from GitHub when the page loads
-fetch('https://api.github.com/repos/aassoiants/bitcointabletopics/contents/questions.json')
+fetch('https://api.github.com/repos/aassoiants/bitcointabletopics/contents/data/questions.json')
     .then(response => response.json())
     .then(data => {
         // Decode the content from base64
