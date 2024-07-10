@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+select, button {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#questionDisplay {
+    font-size: 18px;
+    margin-top: 20px;
+}
